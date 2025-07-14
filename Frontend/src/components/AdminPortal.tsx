@@ -18,7 +18,7 @@ interface AdminPortalProps {
   onBack: () => void;
 }
 
-const GEMINI_API_KEY = "AIzaSyBFSEsbk_DpSifE29Il14piCfRyLwfNdHI";
+const GEMINI_API_KEY = "";
 
 const AdminPortal: React.FC<AdminPortalProps> = ({ onBack }) => {
   const [logs, setLogs] = useState<string[]>([]);
