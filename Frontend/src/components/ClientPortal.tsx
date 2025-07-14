@@ -16,7 +16,7 @@ interface ClientPortalProps {
   onBack: () => void;
 }
 
-const GEMINI_API_KEY = "AIzaSyBFSEsbk_DpSifE29Il14piCfRyLwfNdHI"; // Replace with your actual API key
+const GEMINI_API_KEY = ""; // Replace with your actual API key
 
 const ClientPortal: React.FC<ClientPortalProps> = ({ onBack }) => {
   const [form, setForm] = useState({
