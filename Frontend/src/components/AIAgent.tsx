@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const GEMINI_API_KEY = "AIzaSyBFSEsbk_DpSifE29Il14piCfRyLwfNdHI"; // Replace with your Gemini API key
+const GEMINI_API_KEY = ""; // Replace with your Gemini API key
 
 export default function AIAgent() {
   const [input, setInput] = useState("");
